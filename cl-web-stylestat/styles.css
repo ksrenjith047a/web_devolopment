@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 10px;  
+    color: #064490;
+    font-family: MedievalSharp, cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 20px;
+    border: 4px solid #064490;
+}
+#clg{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#name{
+    margin-bottom: 0;
+}
+#loc{
+    margin-top: 0;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section{   
+    width: 250px;
+    background-color: #064490;
+    color: white;
+    height: 132px;
+    border: 10px solid white;
+}
+.section > h3{
+    text-align: center;
+}
+
+@media all and (max-width: 856px) {
+    .section {
+      flex: 0 0 100%;
+      width: auto;
+    }
+  }
