@@ -1,0 +1,11 @@
+.container {
+  border: 5px solid rgba(225, 43, 225, 0.333);
+  display: flex;
+}
+
+.search {
+  flex: 1;
+}
+
+
+
